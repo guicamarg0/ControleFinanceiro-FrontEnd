@@ -8,7 +8,7 @@ function App() {
   useEffect(() => {
     api.get('/api/status')
       .then(response => setMessage("Conexão com o back-end realizada com sucesso"))
-      .catch(() => setMessage('Backend Spring Boot não conectado'))
+      .catch(() => setMessage('AAAAAAAAAAAA'))
   }, [])
 
   return (
